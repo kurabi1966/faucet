@@ -1,0 +1,230 @@
+{
+  "contractName": "Faucet",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "funds",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.1+commit.c8a2cb62\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"funds\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/FaucetContract.sol\":\"Faucet\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/FaucetContract.sol\":{\"keccak256\":\"0x1c6cb0b361a0690af48e2d625600f95a117a28542b5d36ca0331c2f773857120\",\"urls\":[\"bzzr://c24e9f95d06224fa7fe1938cd388a8fef82cfcf6f2df1e0afefa76392ca68160\"]}},\"version\":1}",
+  "bytecode": "0x60806040526103e8600055348015601557600080fd5b506098806100246000396000f3fe6080604052600436106039576000357c010000000000000000000000000000000000000000000000000000000090048063c89f2ce414603e575b600080fd5b348015604957600080fd5b5060506066565b6040518082815260200191505060405180910390f35b6000548156fea165627a7a723058209a8e3d6ef5800567d540ee152dec7c68d89c10a09a492174aa4d5638348a03750029",
+  "deployedBytecode": "0x6080604052600436106039576000357c010000000000000000000000000000000000000000000000000000000090048063c89f2ce414603e575b600080fd5b348015604957600080fd5b5060506066565b6040518082815260200191505060405180910390f35b6000548156fea165627a7a723058209a8e3d6ef5800567d540ee152dec7c68d89c10a09a492174aa4d5638348a03750029",
+  "sourceMap": "66:48:0:-;;;106:4;86:24;;66:48;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:48:0;;;;;;;",
+  "deployedSourceMap": "66:48:0:-;;;;;;;;;;;;;;;;;;;;;;86:24;;8:9:-1;5:2;;;30:1;27;20:12;5:2;86:24:0;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Faucet {\n  uint public funds = 1000;\n\n}",
+  "sourcePath": "/Users/Ammar/Learn/blockchain/wallet-app/faucet/contracts/FaucetContract.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/FaucetContract.sol",
+    "exportedSymbols": {
+      "Faucet": [
+        5
+      ]
+    },
+    "id": 6,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 5,
+        "linearizedBaseContracts": [
+          5
+        ],
+        "name": "Faucet",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 4,
+            "name": "funds",
+            "nodeType": "VariableDeclaration",
+            "scope": 5,
+            "src": "86:24:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "86:4:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "31303030",
+              "id": 3,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "106:4:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_1000_by_1",
+                "typeString": "int_const 1000"
+              },
+              "value": "1000"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 6,
+        "src": "66:48:0"
+      }
+    ],
+    "src": "32:82:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/FaucetContract.sol",
+      "exportedSymbols": {
+        "Faucet": [
+          5
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            5
+          ],
+          "name": "Faucet",
+          "scope": 6
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "funds",
+              "scope": 5,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint",
+                  "type": "uint256"
+                },
+                "id": 2,
+                "name": "ElementaryTypeName",
+                "src": "86:4:0"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "31303030",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "number",
+                  "type": "int_const 1000",
+                  "value": "1000"
+                },
+                "id": 3,
+                "name": "Literal",
+                "src": "106:4:0"
+              }
+            ],
+            "id": 4,
+            "name": "VariableDeclaration",
+            "src": "86:24:0"
+          }
+        ],
+        "id": 5,
+        "name": "ContractDefinition",
+        "src": "66:48:0"
+      }
+    ],
+    "id": 6,
+    "name": "SourceUnit",
+    "src": "32:82:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.1+commit.c8a2cb62.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x315512224B973c1b9c768e342d547c33fF454B80",
+      "transactionHash": "0x9c55eacc8983e350d7c0853637e816b4c121859e44e51830e6fc11573c3f9605"
+    }
+  },
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-10-21T08:03:23.755Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
